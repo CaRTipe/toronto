@@ -1,0 +1,154 @@
+* {
+    scroll-behavior: smooth;
+}
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(228, 231, 196);
+}
+button {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  width: 270px;
+  height: 70px;
+  background-color: rgb(228, 231, 196);
+  color: black;
+  border: 2px solid black;
+}
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: 10ms;
+}
+.navbar {
+  height: 160px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+  font-size: 30px;
+  position: fixed;
+}
+.links .head img {
+  border-radius: 30px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+links:hover {
+  cursor: pointer;
+}
+.head {
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.head:hover {
+  color: black;
+  cursor: pointer;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.bodyy {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 500px;
+}
+.bodyy .two {
+  gap: 700px;
+}
+.head2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: left;
+  gap: 400px;
+}
+.head2 h1 {
+  font-size: 120px;
+  font-weight: bold;
+  color: black;
+}
+.head2 h2 {
+  font-size: 30px;
+  gap: 30px;
+}
+.image img {
+  border-radius: 30px;
+  width: 900px;
+  height: 1200px;
+}
+.head2 .one {
+  gap: 10px;
+}
+.three {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.three .socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+.three .socials:hover {
+  cursor: pointer;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.shoots {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 70px;
+}
+.choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+.lookbook {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+.aboutme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+}
+.fashiontips {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.card {
+    border: 2px solid black;
+    border-radius: 50px;
+}
