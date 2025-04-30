@@ -152,3 +152,16 @@ links:hover {
     border: 2px solid black;
     border-radius: 50px;
 }
+.get {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
