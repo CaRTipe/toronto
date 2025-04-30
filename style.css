@@ -40,6 +40,9 @@ a {
   color: black;
   text-decoration: none;
 }
+a:hover {
+  cursor: pointer;
+}
 links:hover {
   cursor: pointer;
 }
@@ -117,8 +120,10 @@ links:hover {
 .shoots {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
+  align-items: center;
   font-size: 70px;
+  gap: 600px;
 }
 .choice {
   display: flex;
@@ -130,23 +135,27 @@ links:hover {
 .lookbook {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   font-size: 70px;
+  gap: 700px;
 }
 .aboutme {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
   font-size: 70px;
+  gap: 400px;
 }
 .fashiontips {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     font-size: 70px;
+    gap: 400px;
+
 }
 .card {
     border: 2px solid black;
@@ -155,9 +164,10 @@ links:hover {
 .get {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     font-size: 70px;
+    gap: 800px;
 }
 .contact {
     display: flex;
