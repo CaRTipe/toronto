@@ -22,6 +22,7 @@ button:hover {
 }
 .navbar {
   height: 160px;
+  
 }
 .links {
   display: flex;
@@ -32,6 +33,8 @@ button:hover {
   gap: 20px;
   font-size: 30px;
   position: fixed;
+  padding-bottom: 20px;
+  background-color: salmon;
 }
 .links .head img {
   border-radius: 30px;
