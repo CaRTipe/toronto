@@ -65,7 +65,7 @@ links:hover {
 }
 .bodyy {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 100px;
 }
 .bodyy .two {
