@@ -32,9 +32,6 @@ button:hover {
   list-style: none;
   gap: 20px;
   font-size: 30px;
-  position: fixed;
-  padding-bottom: 20px;
-  background-color: salmon;
 }
 .links .head img {
   border-radius: 30px;
@@ -63,22 +60,23 @@ links:hover {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-size: 23px;
   gap: 80px;
 }
 .bodyy {
   display: flex;
   flex-direction: row-reverse;
-  gap: 500px;
+  gap: 100px;
 }
 .bodyy .two {
-  gap: 700px;
+  gap: 600px;
 }
 .head2 {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: left;
-  gap: 400px;
+  gap: 300px;
 }
 .head2 h1 {
   font-size: 120px;
@@ -92,7 +90,7 @@ links:hover {
 .image img {
   border-radius: 30px;
   width: 900px;
-  height: 1200px;
+  height: 1000px;
 }
 .head2 .one {
   gap: 10px;
@@ -141,7 +139,7 @@ links:hover {
   justify-content: start;
   align-items: center;
   font-size: 70px;
-  gap: 700px;
+  gap: 550px;
 }
 .aboutme {
   display: flex;
@@ -149,7 +147,7 @@ links:hover {
   justify-content: start;
   align-items: center;
   font-size: 70px;
-  gap: 400px;
+  gap: 550px;
 }
 .fashiontips {
     display: flex;
@@ -170,7 +168,7 @@ links:hover {
     justify-content: start;
     align-items: center;
     font-size: 70px;
-    gap: 800px;
+    gap: 550px;
 }
 .contact {
     display: flex;
