@@ -7,5 +7,6 @@ function sendEmail() {
   var name = document.getElementById("name").value
   var email = document.getElementById("email").value
   var message = document.getElementById("message").value
-  console.log(name, email, message)
+  let text = ""
+  console.log(name + "<br>" + email + "<br>" + message )
 }
